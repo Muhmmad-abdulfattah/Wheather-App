@@ -1,0 +1,139 @@
+body {
+    background: #1e202b;
+    color: #bfc1c8;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-title {
+    margin-bottom: 3px;
+    margin-left: 3px;
+    font-size: 16px;
+    color: white;
+}
+
+.site-desc {
+    font-size: 0.7142857143em;
+    display: block;
+    color: #bfc1c8;
+    margin-left: 3px;
+
+}
+
+ul li a {
+    text-decoration: none !important;
+    padding: 5px 25px !important;
+    border: 2px solid transparent;
+    border-radius: 30px !important;
+    color: white !important;
+    transition: 0.3s ease !important;
+    font-weight: 400 !important;
+}
+
+ul li a:hover,
+a.active {
+    border-color: #009ad8 !important;
+    color: #009ad8 !important;
+}
+
+.hero {
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    min-height: 350px;
+}
+
+.form-control {
+    background-color: #1e202b !important;
+    border: transparent !important;
+    border: none !important;
+
+}
+
+.search-form {
+    background-color: #1e202b !important;
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+
+.btn-primary {
+    border-radius: 30px !important;
+}
+
+.col-md-4 {
+    background: #323544 !important;
+    margin-top: -150px !important;
+
+}
+
+.forecast-header {
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+}
+
+.forecast-content span {
+    margin-right: 7px;
+}
+
+.location {
+    font-size: 1.2857142857em;
+    font-weight: 400;
+}
+
+
+.bg-myBg {
+    background: #323544;
+}
+
+.head {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.bg-mid {
+    background-color: #262936 !important;
+}
+
+.site-footer a {
+    width: 40px !important;
+ 
+    background-color: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    border-radius: 50%;
+    transition: all 0.3s;
+
+}
+
+.site-footer a:hover{
+    background-color: #009ad8;
+    color: #fff;
+}
+
+.fa {
+    font-size: 20px !important;
+}
+
+
+
+@media only screen and (max-width: 770px) {
+    .col-md-4 {
+        margin-top: 0 !important;
+    }
+
+    .hero .container{
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}

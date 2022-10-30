@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg px-5 py-4">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/logo@2x.png" height="38" width="64" class="logo"
+                    alt="logo">
+                <div class="logo-type">
+                    <h1 class="site-title">Weather</h1>
+                    <p class="site-desc">tagline goes here</p>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto px-5">
+                    <li class="nav-item px-3">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero py-5">
+        <div class="container">
+            <form class="search-form d-flex justify-content-center align-items-center ">
+                <input class="form form-control p-3 w-100 text-white" type="text" placeholder="Find ypur location" id="search">
+                <button  id="submit" class="btn btn-primary me-2 px-4 py-2">Find    </button>
+
+            </form>
+        </div>
+
+
+    </header>
+
+
+    <div class="forecast-data">
+        <div class="container bg-myBg">
+            <div class="row " id="myRow">
+                
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="site-footer bg-myBg py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <form class="search-form d-flex justify-content-center bg-danger align-items-center ">
+                        <input class="form form-control p-3 w-100 text-white " type="text" placeholder="Contact with me" id="search">
+                        <button id="submit" class="btn btn-primary me-2 px-4 py-2">Contact </button>
+                    
+                    </form>
+                </div>
+                <div class="col-md-3 offset-md-1">
+                    <div class="socila-links">
+                        <a href=""><i class="fa fa-brands fa-facebook icon p-2 py-2"></i></a>
+                        <a href=""><i class="fa fa-brands fa-twitter icon p-2"></i></a>
+                        <a href=""><i class="fa fa-brands fa-youtube icon p-2"></i></a>
+                        <a href=""><i class="fa fa-brands fa-whatsapp icon p-2"></i></a>
+                    </div>
+                </div>
+                <p class="pt-md-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <script src="javascript/bootstrap.bundle.min.js"></script>
+    <script src="javascript/main.js"></script>
+</body>
+
+</html>
